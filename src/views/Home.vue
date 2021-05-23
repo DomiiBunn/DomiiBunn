@@ -77,6 +77,7 @@ export default {
   padding-right: 30%;
   padding-left: 30%;
   gap: 15px;
+  overflow: auto;
   @media screen and (max-width: 1600px) {
     flex-direction: column;
     padding-right: 5px;
@@ -93,6 +94,10 @@ export default {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    @media screen and (max-width: 600px) {
+      margin-top: 50px;
+      padding-top: 10px;
+    }
     .picture {
       height: 150px;
       width: 150px;

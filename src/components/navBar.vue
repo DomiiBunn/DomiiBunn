@@ -17,9 +17,9 @@
 export default {
   methods: {
     navClick() {
-      this.$router.push("/")
-    }
-  }
+      this.$router.push("/");
+    },
+  },
 };
 </script>
 
@@ -42,6 +42,9 @@ nav {
     .name {
       font-family: "Great Vibes", cursive;
       font-size: 2rem;
+      @media screen and (max-width: 600px) {
+        font-size: 1rem !important;
+      }
       color: rgb(88, 15, 88);
       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
     }
