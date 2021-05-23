@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div class="title">
+    <div @click="navClick" class="title">
       <div class="name">Dominika Jadowska</div>
       <div class="slash">/</div>
       <div class="position">Service desk analyst</div>
@@ -8,13 +8,19 @@
     <div class="links">
       <router-link to="/" class="link">Home</router-link>
       <router-link to="/resume" class="link">Resume</router-link>
-      <router-link to="/projects" class="link">Projects</router-link>
+      <!-- <router-link to="/projects" class="link">Projects</router-link> -->
     </div>
   </nav>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    navClick() {
+      this.$router.push("/")
+    }
+  }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -28,6 +34,7 @@ nav {
   box-sizing: border-box;
   padding: 2rem;
   .title {
+    cursor: pointer;
     display: flex;
     gap: 5px;
     height: 100%;
