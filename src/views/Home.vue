@@ -8,10 +8,10 @@
       <div class="line" />
       <div class="title">Service desk analyst</div>
       <div class="socials">
-        <div class="social"><i class="fab fa-discord"></i></div>
-        <div class="social"><i class="fab fa-twitch"></i></div>
-        <div class="social"><i class="fab fa-instagram"></i></div>
-        <div class="social"><i class="fab fa-github"></i></div>
+        <div @click="handleSocial('discord')" class="social"><i class="fab fa-discord"></i></div>
+        <div @click="handleSocial('twitch')" class="social"><i class="fab fa-twitch"></i></div>
+        <div @click="handleSocial('instagram')" class="social"><i class="fab fa-instagram"></i></div>
+        <div @click="handleSocial('github')" class="social"><i class="fab fa-github"></i></div>
       </div>
     </div>
     <div class="description">
@@ -30,6 +30,32 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    handleSocial(social) {
+      switch (social) {
+        case "discord":
+          window.open("https://discord.gg/v3Aa5h6yZC",'_blank');
+          break;
+        case "twitch":
+          window.open("https://www.twitch.tv/domiibunni",'_blank');
+          break;
+        case "instagram":
+          window.open("http://instagram.com/domiibunn",'_blank');
+          break;
+        case "github":
+          window.open("http://github.com/domiiBunn/",'_blank');
+          break;
+      
+        default:
+          break;
+      }
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 .home {
