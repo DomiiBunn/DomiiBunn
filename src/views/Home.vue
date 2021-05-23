@@ -8,18 +8,26 @@
       <div class="line" />
       <div class="title">Service desk analyst</div>
       <div class="socials">
-        <div @click="handleSocial('discord')" class="social"><i class="fab fa-discord"></i></div>
-        <div @click="handleSocial('twitch')" class="social"><i class="fab fa-twitch"></i></div>
-        <div @click="handleSocial('instagram')" class="social"><i class="fab fa-instagram"></i></div>
-        <div @click="handleSocial('github')" class="social"><i class="fab fa-github"></i></div>
+        <div @click="handleSocial('discord')" class="social">
+          <i class="fab fa-discord"></i>
+        </div>
+        <div @click="handleSocial('twitch')" class="social">
+          <i class="fab fa-twitch"></i>
+        </div>
+        <div @click="handleSocial('instagram')" class="social">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div @click="handleSocial('github')" class="social">
+          <i class="fab fa-github"></i>
+        </div>
       </div>
     </div>
     <div class="description">
       <div class="header">Hi there!</div>
       <div class="sub-header">Here is some facts about me</div>
       <div class="buttons">
-        <div class="button">Resume</div>
-        <div class="button">Projects</div>
+        <div @click="handleButtons('resume')" class="button">Resume</div>
+        <div @click="handleButtons('projects')" class="button">Projects</div>
       </div>
       <div class="paragraph">
         I don't call myself above average. I do love what I do and want to grow
@@ -37,24 +45,27 @@ export default {
     handleSocial(social) {
       switch (social) {
         case "discord":
-          window.open("https://discord.gg/v3Aa5h6yZC",'_blank');
+          window.open("https://discord.gg/v3Aa5h6yZC", "_blank");
           break;
         case "twitch":
-          window.open("https://www.twitch.tv/domiibunni",'_blank');
+          window.open("https://www.twitch.tv/domiibunni", "_blank");
           break;
         case "instagram":
-          window.open("http://instagram.com/domiibunn",'_blank');
+          window.open("http://instagram.com/domiibunn", "_blank");
           break;
         case "github":
-          window.open("http://github.com/domiiBunn/",'_blank');
+          window.open("http://github.com/domiiBunn/", "_blank");
           break;
-      
+
         default:
           break;
       }
-    }
-  }
-}
+    },
+    handleButtons(button) {
+      this.$router.push(`/${button}`);
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
