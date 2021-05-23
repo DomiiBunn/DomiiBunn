@@ -17,10 +17,10 @@
     <div class="description">
       <div class="header">Hi there!</div>
       <div class="sub-header">Here is some facts about me</div>
-      <!-- <div class="buttons">
+      <div class="buttons">
         <div class="button">Resume</div>
         <div class="button">Projects</div>
-      </div> -->
+      </div>
       <div class="paragraph">
         I don't call myself above average. I do love what I do and want to grow
         to become great at it. Coding is not a job but a hobby for me thus I
