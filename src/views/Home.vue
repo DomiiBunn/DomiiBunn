@@ -16,7 +16,7 @@
     </div>
     <div class="description">
       <div class="header">Hi there!</div>
-      <div class="sub-header">Here is some facts about me!</div>
+      <div class="sub-header">Here is some facts about me</div>
       <!-- <div class="buttons">
         <div class="button">Resume</div>
         <div class="button">Projects</div>
