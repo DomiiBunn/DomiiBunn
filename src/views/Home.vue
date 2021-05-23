@@ -11,6 +11,7 @@
         <div class="social"><i class="fab fa-discord"></i></div>
         <div class="social"><i class="fab fa-twitch"></i></div>
         <div class="social"><i class="fab fa-instagram"></i></div>
+        <div class="social"><i class="fab fa-github"></i></div>
       </div>
     </div>
     <div class="description">
@@ -112,6 +113,9 @@
       );
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+    }
+    .socials .fa-github {
+      color: #24292e;
     }
   }
   .description {
