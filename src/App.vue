@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <navigation />
-    <router-view />
+    <transition name="router-fade" mode="out-in">
+      <router-view />
+    </transition>
   </div>
 </template>
 
@@ -40,6 +42,15 @@ a:focus,
 a:active {
   text-decoration: none;
   color: inherit;
+}
+
+.router-fade-enter-active,
+.router-fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.router-fade-enter,
+.router-fade-leave-to {
+  opacity: 0;
 }
 
 @media screen and (max-width: 600px) {
