@@ -12,3 +12,4 @@ jobs:
         username: 'DomiiBunn'
         reponame: 'DomiiBunn'
         token: ${{ secrets.GITHUB_TOKEN }}
+        cname: "domiibunn.live"
