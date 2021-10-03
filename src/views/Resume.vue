@@ -30,8 +30,17 @@ export default {
         {
           Place: "Dolnet Group",
           Address: "Kopernika 34, Świdnica, Poland",
-          From: "January 2021",
+          From: "October 2021",
           To: "Now",
+          Position: "Helpdesk Specialist",
+          Description:
+            "Ensuring network stability, customer support in IT solutions and writhing/updating the company website.",
+        },
+        {
+          Place: "Dolnet Group",
+          Address: "Kopernika 34, Świdnica, Poland",
+          From: "January 2021",
+          To: "October 2021",
           Position: "Service desk analyst",
           Description:
             "Answering phone calls to support customers and assist them with resolving issues with their internet connection",
