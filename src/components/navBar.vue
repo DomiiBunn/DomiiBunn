@@ -3,7 +3,7 @@
     <div @click="navClick" class="title">
       <div class="name">Dominika Jadowska</div>
       <div class="slash">/</div>
-      <div class="position">Service desk analyst</div>
+      <div class="position">WAN Networking Specialist</div>
     </div>
     <div class="links">
       <router-link to="/" class="link">Home</router-link>

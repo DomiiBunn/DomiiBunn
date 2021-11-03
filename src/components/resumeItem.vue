@@ -14,12 +14,23 @@
       <div class="description">
         {{ resumeObject.Description }}
       </div>
+      <div v-if="resumeObject.Action" class="holder">
+        <div @click="actionClick(resumeObject.Action)" class="button">
+          Find out more!
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import router from "@/router";
 export default {
+  methods: {
+    actionClick(ActionTarget) {
+      router.push(`/more/${ActionTarget}`);
+    },
+  },
   props: {
     resumeObject: Object,
   },
@@ -27,21 +38,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.card {
-  width: 80%;
-  background-color: white;
-  padding: 30px;
-  box-shadow: 0 0 10px black;
-  .location {
-    color: rgb(63, 63, 63);
-  }
-  .card-title {
-    font-size: 2.5rem;
-    font-family: "Questrial", sans-serif;
-    .position {
-      font-size: 1.5rem;
-      color: rgb(63, 63, 63);
-    }
-  }
+.holder {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
 }
+.button {
+  background-color: purple;
+  margin-top: 10px;
+  align-self: flex-end;
+}
+
 </style>

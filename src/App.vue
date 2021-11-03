@@ -98,4 +98,65 @@ a:active {
     box-shadow: inset 7px 10px 12px #f0f0f0;
   }
 }
+.button {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.1em 0.1em 0;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.button:hover {
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.page {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  overflow: auto;
+  padding-top: 35px;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 35px;
+  flex-direction: column;
+  gap: 15px;
+  box-sizing: border-box;
+  @media screen and (max-width: 1600px) {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .subTitle {
+    width: 90%;
+    font-size: 3rem;
+  }
+}
+.card {
+  width: 80%;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 10px black;
+  .location {
+    color: rgb(63, 63, 63);
+  }
+  .card-title {
+    font-size: 2.5rem;
+    font-family: "Questrial", sans-serif;
+    .position {
+      font-size: 1.5rem;
+      color: rgb(63, 63, 63);
+    }
+  }
+}
+.back {
+  cursor: pointer;
+}
 </style>

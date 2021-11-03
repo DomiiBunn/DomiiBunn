@@ -4,23 +4,30 @@ import Home from "@/views/Home.vue";
 import Resume from "@/views/Resume.vue"
 import Projects from "@/views/Projects.vue"
 
+//Extras
+import dol1 from "@/views/more/dol1.vue"
+
 Vue.use(VueRouter);
 
 const routes = [{
-    path: "/",
-    name: "Home",
-    component: Home,
-  },
-  {
-    path: "/resume",
-    name: "Resume",
-    component: Resume,
-  },
-  {
-    path: "/projects",
-    name: "Projects",
-    component: Projects,
-  }
+  path: "/",
+  name: "Home",
+  component: Home,
+},
+{
+  path: "/resume",
+  name: "Resume",
+  component: Resume,
+},
+{
+  path: "/more/dol1",
+  component: dol1
+},
+{
+  path: "/projects",
+  name: "Projects",
+  component: Projects,
+}
 ];
 
 const router = new VueRouter({

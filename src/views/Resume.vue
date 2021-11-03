@@ -1,5 +1,5 @@
 <template>
-  <div class="resume">
+  <div class="page">
     <skills />
     <div class="subTitle">Experience:</div>
     <resumeItem
@@ -32,9 +32,10 @@ export default {
           Address: "Kopernika 34, Świdnica, Poland",
           From: "October 2021",
           To: "Now",
-          Position: "Helpdesk Specialist",
+          Position: "WAN Networking Specialist",
           Description:
-            "Ensuring network stability, customer support in IT solutions and writhing/updating the company website.",
+            "Working with WISP(Wireless ISP) and (gPON) networks, ensuring network stability, ensuring correct routing for clients, creating and supporting company website, remotley supporting feild technitions, implementing new methods for network deployments, ensuring voip stability, debugging 3rd party IPTV systems and prepairing networking gear for deployment. ",
+          Action: "dol1",
         },
         {
           Place: "Dolnet Group",
@@ -113,27 +114,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.resume {
-  display: flex;
-  height: 100%;
-  align-items: center;
-  overflow: auto;
-  padding-top: 35px;
-  padding-right: 10%;
-  padding-left: 10%;
-  padding-bottom: 35px;
-  flex-direction: column;
-  gap: 15px;
-  box-sizing: border-box;
-  @media screen and (max-width: 1600px) {
-    padding-right: 5px;
-    padding-left: 5px;
-  }
-  .subTitle {
-    width: 90%;
-    font-size: 3rem;
-  }
-}
-</style>

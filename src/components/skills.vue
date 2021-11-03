@@ -24,6 +24,8 @@ export default {
         "CSS",
         "NodeJS",
         "Git",
+        "CCNA(Still Learning)",
+        "Networking",
       ],
     };
   },
