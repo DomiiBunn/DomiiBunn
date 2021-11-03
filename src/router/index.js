@@ -6,6 +6,8 @@ import Projects from "@/views/Projects.vue"
 
 //Extras
 import dol1 from "@/views/more/dol1.vue"
+import dol0 from "@/views/more/dol0.vue"
+
 
 Vue.use(VueRouter);
 
@@ -18,6 +20,10 @@ const routes = [{
   path: "/resume",
   name: "Resume",
   component: Resume,
+},
+{
+  path: "/more/dol0",
+  component: dol0
 },
 {
   path: "/more/dol1",

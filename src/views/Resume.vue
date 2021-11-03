@@ -45,6 +45,7 @@ export default {
           Position: "Service desk analyst",
           Description:
             "Answering phone calls to support customers and assist them with resolving issues with their internet connection",
+          Action: "dol0",
         },
         {
           Place: "Red Baron Hotel",
