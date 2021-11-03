@@ -32,7 +32,7 @@ export default {
           Address: "Kopernika 34, Świdnica, Poland",
           From: "October 2021",
           To: "Now",
-          Position: "WAN Networking Specialist",
+          Position: "Networking Specialist",
           Description:
             "Working with WISP(Wireless ISP) and (gPON) networks, ensuring network stability, ensuring correct routing for clients, creating and supporting company website, remotley supporting feild technitions, implementing new methods for network deployments, ensuring voip stability, debugging 3rd party IPTV systems and prepairing networking gear for deployment. ",
           Action: "dol1",

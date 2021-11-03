@@ -9,6 +9,12 @@ import dol1 from "@/views/more/dol1.vue"
 import dol0 from "@/views/more/dol0.vue"
 
 
+//Projects
+import imaginecraft from "@/views/projects/imaginecraft.vue"
+import ls4 from "@/views/projects/ls4.vue"
+import smarthome from "@/views/projects/smarthome.vue"
+
+
 Vue.use(VueRouter);
 
 const routes = [{
@@ -32,7 +38,22 @@ const routes = [{
 {
   path: "/projects",
   name: "Projects",
+  redirect: "/projects/imaginecraft",
   component: Projects,
+  children: [
+    {
+      path: "/projects/imaginecraft",
+      component: imaginecraft
+    },
+    {
+      path: "/projects/ls4",
+      component: ls4
+    },
+    {
+      path: "/projects/smarthome",
+      component: smarthome
+    }
+  ]
 }
 ];
 

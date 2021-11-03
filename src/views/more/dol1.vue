@@ -6,7 +6,7 @@
       </div>
       <div class="card-title">
         Dolnet Group Sp. z.o.o (Limonka)
-        <span class="position">WAN Networking Specialist</span>
+        <span class="position">Networking Specialist</span>
       </div>
       <p>
         I worked on many positions in the company mainly making sure everything

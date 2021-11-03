@@ -6,7 +6,7 @@
       </div>
       <div class="name">Dominika Jadowska</div>
       <div class="line" />
-      <div class="title">Service desk analyst</div>
+      <div class="title">Networking Specialist</div>
       <div class="socials">
         <div @click="handleSocial('discord')" class="social">
           <i class="fab fa-discord"></i>
