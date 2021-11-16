@@ -159,4 +159,8 @@ a:active {
 .back {
   cursor: pointer;
 }
+
+.projects-img {
+  width: 100%;
+}
 </style>

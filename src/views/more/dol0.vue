@@ -10,22 +10,22 @@
       </div>
       <p>
         I started my work at the company as a Call Center employee and quickly
-        got promoted to a Service desk analysts. The position didn't exacly
-        differ other then my task was not just creating issues with custumer
+        got promoted to a Service desk analyst. The position didn't exactly
+        differ other than my task was not just creating issues with customer
         complaints but also attempting to fix those issues over the phone with
-        individual custumers. I was also getting office questions about
-        custumers contracts, pay and vindication.
+        individual customers. I was also getting office questions about
+        customers contracts, pay, and vindication.
       </p>
       <h2>My responsibilities</h2>
       <p>
-        <i class="far fa-dot-circle"></i> Answering client quiestions in
-        technical and office enquiries
+        <i class="far fa-dot-circle"></i> Answering client questions in
+        technical and office inquiries
       </p>
       <p>
-        <i class="far fa-dot-circle"></i> Assisting clients remotley with
+        <i class="far fa-dot-circle"></i> Assisting clients remotely with
         technical issues
       </p>
-      <p><i class="far fa-dot-circle"></i> Ensuring custumer satisfaction</p>
+      <p><i class="far fa-dot-circle"></i> Ensuring customer satisfaction</p>
       <p>
         <i class="far fa-dot-circle"></i> Assisting clients with picking
         contract terms
@@ -33,17 +33,24 @@
       <h2>Understanding my position</h2>
       <p>
         I was working on the "1st line of contact" with the client, When anyone
-        dilled the company phone numer the call would go thrugh my department,
-        We would commonly fully resolve the issue a custumer was calling in
-        about. This was anything from a payment issue to technical understanding
-        of thier devices and help debugging them. The company grew too mutch for
-        us to handle the ammount of calls therefore the callcenter part of the
-        company was disolved into other departments and outsorced.
+        dilled the company phone number the call would go through my department,
+        We would commonly fully resolve the issue a customer was calling in about. This was anything from a payment issue to technical understanding of their devices and help to debug them. The company grew too much for
+        us to handle the amount of calls, therefore, the call center part of the
+        the company was dissolved into other departments and outsourced.
       </p>
       <h2>Experience</h2>
-      <p><i class="fas fa-lightbulb"></i> Assisting clients under pressure over the phone</p>
-      <p><i class="fas fa-lightbulb"></i> Understanding how to calculate client finances</p>
-      <p><i class="fas fa-lightbulb"></i> Understanding how to present contract terms to clients</p>
+      <p>
+        <i class="fas fa-lightbulb"></i> Assisting clients under pressure over
+        the phone
+      </p>
+      <p>
+        <i class="fas fa-lightbulb"></i> Understanding how to calculate client
+        finances
+      </p>
+      <p>
+        <i class="fas fa-lightbulb"></i> Understanding how to present contract
+        terms to clients
+      </p>
     </div>
   </div>
 </template>

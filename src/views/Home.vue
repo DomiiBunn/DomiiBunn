@@ -27,7 +27,7 @@
       <div class="sub-header">Here is some facts about me</div>
       <div class="buttons">
         <div @click="handleButtons('resume')" class="button">Resume</div>
-        <!-- <div @click="handleButtons('projects')" class="button">Projects</div> -->
+        <div @click="handleButtons('projects')" class="button">Projects</div>
       </div>
       <div class="paragraph">
         I don't call myself above average. I do love what I do and want to grow

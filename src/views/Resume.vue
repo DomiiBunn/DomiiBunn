@@ -34,7 +34,7 @@ export default {
           To: "Now",
           Position: "Networking Specialist",
           Description:
-            "Working with WISP(Wireless ISP) and (gPON) networks, ensuring network stability, ensuring correct routing for clients, creating and supporting company website, remotley supporting feild technitions, implementing new methods for network deployments, ensuring voip stability, debugging 3rd party IPTV systems and prepairing networking gear for deployment. ",
+            "Working with WISP(Wireless ISP) and (gPON) networks, ensuring network stability, ensuring correct routing for clients, creating and supporting company website, remotely supporting field technicians, implementing new methods for network deployments, ensuring VoIP stability, debugging 3rd party IPTV systems and preparing networking gear for deployment.",
           Action: "dol1",
         },
         {
@@ -54,7 +54,7 @@ export default {
           To: "June 2019",
           Position: "Receptionist",
           Description:
-            "Assisting guests around the hotel. Checking In/Out guests and preforming other hotel management duties",
+            "Assisting guests around the hotel. Checking In/Out guests and performing other hotel management duties",
         },
         {
           Place: "MediaExpert",

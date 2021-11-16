@@ -9,9 +9,9 @@
         <span class="position">Networking Specialist</span>
       </div>
       <p>
-        I worked on many positions in the company mainly making sure everything
+        I worked in many positions in the company mainly making sure everything
         was running smoothly. I was one of the 3 people responsible for ensuring
-        netowkr stability and managing our feild technitions. I also wrote the
+        network stability and managing our field technicians. I also wrote the
         company website
         <a href="https://limonka.pl" target="_blank" rel="noopener noreferrer"
           >Limonka.pl</a
@@ -19,12 +19,12 @@
       </p>
       <h2>My responsibilities</h2>
       <p>
-        <i class="far fa-dot-circle"></i> Spot and fix autages(1st remote if not
+        <i class="far fa-dot-circle"></i> Spot and fix outages(1st remote if not
         possible sent out a technician)
       </p>
       <p>
-        <i class="far fa-dot-circle"></i> Support our custumers in day to day
-        issues. Helping set up custumer routers over the phone, preforming basic
+        <i class="far fa-dot-circle"></i> Support our customers in day-to-day
+        issues. Helping set up customer routers over the phone, performing basic
         diagnosis.
       </p>
       <p>
@@ -37,10 +37,10 @@
       </p>
       <p>
         <i class="far fa-dot-circle"></i> Solving support tickets for home and
-        buissnes clients
+        business clients
       </p>
       <p>
-        <i class="far fa-dot-circle"></i> Setting up buissnes routing and
+        <i class="far fa-dot-circle"></i> Setting up business routing and
         transmissions
       </p>
       <p><i class="far fa-dot-circle"></i> Setting up IPsec VPN</p>
@@ -51,14 +51,14 @@
       <p>
         I worked in multiple positions at once as the company wasn't big enough
         to split these departments(Around 10,000 clients). My work mainly
-        consisted on solving individual issues with internet acces, We had an
+        consisted of solving individual issues with internet access, We had an
         issue tracking system where an external call center would create issues
-        to solve, Out response time was bellow 24hrs. The main goal was to solve
+        to solve, Our response time was below 24hrs. The main goal was to solve
         each issue with the client without the need to send out a technician to
-        the client. More rare but still common ware Buissnes cases where work
+        the client. More rare but still common ware Business cases where work
         consisted of solving complex networking problems from BGP routing to
-        assisting in IPsec setups. The work possision was basically universal to
-        what our custumers needed at the time.
+        assisting in IPsec setups. The work position was basically universal to
+        what our customers needed at the time.
       </p>
       <h2>Experience and Equipment</h2>
       <p><i class="fas fa-lightbulb"></i> Working with Ubiquity WIPS gear</p>
@@ -81,14 +81,17 @@
         <a href="https://uisp.ui.com/" target="_blank" rel="noopener noreferrer"
           >UISP</a
         >
-        for use with our WISP custumers
+        for use with our WISP customers
       </p>
       <h2>Work Photos</h2>
       <h4>The office we worked at</h4>
       <img src="/img/dol1/Office.jpg" alt="office photo" />
-      <h4>An Eage Router X I've set up for a buissnes client</h4>
+      <h4>An Edge Router X I've set up for a business client</h4>
       <img src="/img/dol1/ERX.jpg" alt="router photo" />
-      <h4>I once fixed an Ubiquity acces point that was fried by a lighting</h4>
+      <h4>
+        I once fixed a Ubiquity access point that was fried by a lightning
+        strike
+      </h4>
       <img src="/img/dol1/AP.jpg" alt="ap photo" />
     </div>
   </div>

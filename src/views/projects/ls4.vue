@@ -9,14 +9,8 @@
         ><i class="fab fa-github"></i
       ></a>
     </div>
-    <img src="/img/imaginecraft/splash.png" alt="" />
     <p>
-      I worked on the launcher whitch players would interact with to create a
-      lobby and join a game, The graphical desighn was made by me, Assisted by
-      another team member with some css animations. Sadly the new looking
-      launcher was abandoned in favour of a more classic looking one. At around
-      this time i also left the project due to time constraints and lack of
-      creative will.
+     I worked on the launcher which players would interact with to create a lobby and join a game, The graphical design was made by me, Assisted by another team member with some CSS animations. Sadly the new-looking launcher was abandoned in favor of a more classic-looking one. At around this time, I also left the project due to time constraints and lack of creative will.
     </p>
   </div>
 </template>

@@ -7,9 +7,9 @@
       <router-link to="/projects/ls4" class="nav-item"
         >LS4</router-link
       >
-      <router-link to="/projects/smarthome" class="nav-item"
+      <!-- <router-link to="/projects/smarthome" class="nav-item"
         >Smart Home</router-link
-      >
+      > -->
     </div>
     <div class="card"><router-view /></div>
   </div>
