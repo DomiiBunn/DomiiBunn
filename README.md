@@ -4,9 +4,9 @@ Hi there!
 
 I'm Dominika(You can call me Bunny🐰)
 
-I'm mostly self thought if it comes to coding. On the daily i struggle with customers at my company making sure thier internet works fine.
+I'm mostly self-thought when it comes to coding. On a daily, I struggle with customers at my company making sure their internet works fine.
 
-Currently i work as a network engineer with Ubiquity, Cisco, Routerboard and Dassan Networks hardware. Usually i have to diagnose issues with Radio signal(WISP) and some gPON issues. I'm one of three people responsible for the whole companies network. 
+Currently, I work as a network engineer with Ubiquity, Cisco, Routerboard, and Dassan Networks hardware. Usually, I have to diagnose issues with Radio signal(WISP) and some gPON issues. I'm one of three people responsible for the whole companies network. 
 
 # 📝 Languages
 
@@ -21,7 +21,7 @@ Currently i work as a network engineer with Ubiquity, Cisco, Routerboard and Das
 ![](https://github-readme-stats.vercel.app/api?username=DomiiBunn&show_icons=true&theme=tokyonight)
 
 # 💻 Also a website
-This reppo is also a website at [DomiiBunn.live](https://domiibunn.live/)
+This repository is also a website at [DomiiBunn.live](https://domiibunn.live/)
 ![](/public/page.png)
 
 <!---
