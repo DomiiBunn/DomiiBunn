@@ -8,12 +8,14 @@
       <div class="line" />
       <div class="title">Networking Specialist</div>
       <div class="socials">
+        <!--
         <div @click="handleSocial('discord')" class="social">
           <i class="fab fa-discord"></i>
         </div>
         <div @click="handleSocial('twitch')" class="social">
           <i class="fab fa-twitch"></i>
         </div>
+        -->
         <div @click="handleSocial('instagram')" class="social">
           <i class="fab fa-instagram"></i>
         </div>
