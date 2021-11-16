@@ -8,7 +8,7 @@
     <div class="links">
       <router-link to="/" class="link">Home</router-link>
       <router-link to="/resume" class="link">Resume</router-link>
-      <!-- <router-link to="/projects" class="link">Projects</router-link> -->
+      <router-link to="/projects" class="link">Projects</router-link>
     </div>
   </nav>
 </template>
