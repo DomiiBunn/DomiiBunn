@@ -24,6 +24,9 @@ Currently, I work as a network engineer with Ubiquity, Cisco, Routerboard, and D
 This repository is also a website at [DomiiBunn.live](https://domiibunn.live/)
 ![](/public/page.png)
 
+# Disclaimer
+I mostly work on gitlab with private purposes thus it doesn't always show up here in stats
+
 <!---
 DomiiBunn/DomiiBunn is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
