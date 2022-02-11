@@ -1,18 +1,18 @@
+import Home from "@/views/Home.vue";
+import dol0 from "@/views/more/dol0.vue";
+//Extras
+import dol1 from "@/views/more/dol1.vue";
+import Projects from "@/views/Projects.vue";
+import imaginecraft from "@/views/projects/imaginecraft.vue";
+//Projects
+import ls4 from "@/views/projects/ls4.vue";
+import smarthome from "@/views/projects/smarthome.vue";
+import watchy from "@/views/projects/watchy.vue";
+import Resume from "@/views/Resume.vue";
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "@/views/Home.vue";
-import Resume from "@/views/Resume.vue"
-import Projects from "@/views/Projects.vue"
-
-//Extras
-import dol1 from "@/views/more/dol1.vue"
-import dol0 from "@/views/more/dol0.vue"
 
 
-//Projects
-import imaginecraft from "@/views/projects/imaginecraft.vue"
-import ls4 from "@/views/projects/ls4.vue"
-import smarthome from "@/views/projects/smarthome.vue"
 
 
 Vue.use(VueRouter);
@@ -48,6 +48,10 @@ const routes = [{
     {
       path: "/projects/ls4",
       component: ls4
+    },
+    {
+      path: "/projects/watchy",
+        component: watchy
     },
     {
       path: "/projects/smarthome",

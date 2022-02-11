@@ -7,6 +7,9 @@
       <router-link to="/projects/ls4" class="nav-item"
         >LS4</router-link
       >
+      <router-link to="/projects/watchy" class="nav-item"
+        >Watchy</router-link
+      >
       <!-- <router-link to="/projects/smarthome" class="nav-item"
         >Smart Home</router-link
       > -->
