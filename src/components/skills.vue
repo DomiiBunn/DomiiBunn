@@ -20,7 +20,7 @@ export default {
         "Punctual",
         "Reliable",
         "Great Planner",
-        "Docker"
+        "Docker",
         "VUE Mastery",
         "CSS",
         "NodeJS",
