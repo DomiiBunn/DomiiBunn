@@ -28,10 +28,19 @@ export default {
     return {
       experience: [
         {
+          Place: "ICON Communication Centres s.r.o.",
+          Address: "Křižíkova 237/36A, 186 00 Praha 8-Karlín",
+          From: "March 2022",
+          To: "Now",
+          Position: "Microsoft Support Advocate",
+          Description:
+            "Working with Microsoft Support Experts to guide them and ensure Customer Satisfaction with the support service provided by Microsoft. Tracking expert statistics, providing them guidance on the necessary subjects.",
+        },
+        {
           Place: "Dolnet Group",
           Address: "Kopernika 34, Świdnica, Poland",
           From: "October 2021",
-          To: "Now",
+          To: "February 2022",
           Position: "Networking Specialist",
           Description:
             "Working with WISP(Wireless ISP) and (gPON) networks, ensuring network stability, ensuring correct routing for clients, creating and supporting company website, remotely supporting field technicians, implementing new methods for network deployments, ensuring VoIP stability, debugging 3rd party IPTV systems and preparing networking gear for deployment.",

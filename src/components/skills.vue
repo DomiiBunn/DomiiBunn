@@ -20,12 +20,16 @@ export default {
         "Punctual",
         "Reliable",
         "Great Planner",
+        "Docker"
         "VUE Mastery",
         "CSS",
         "NodeJS",
         "Git",
-        "CCNA(Still Learning)",
         "Networking",
+        "Service Center QA",
+        "Windows Home",
+        "Windows Server",
+        "Microsoft 365"
       ],
     };
   },
