@@ -9,6 +9,13 @@
       <router-link to="/" class="link">Home</router-link>
       <router-link to="/resume" class="link">Resume</router-link>
       <router-link to="/projects" class="link">Projects</router-link>
+      <a
+        href="https://status.domiibunn.live/"
+        class="link"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Status Page <i class="fas fa-external-link"></i
+      ></a>
     </div>
   </nav>
 </template>
