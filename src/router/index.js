@@ -8,6 +8,9 @@ import imaginecraft from "@/views/projects/imaginecraft.vue";
 import ls4 from "@/views/projects/ls4.vue";
 import smarthome from "@/views/projects/smarthome.vue";
 import watchy from "@/views/projects/watchy.vue";
+import lam from "@/views/projects/liveActionMap.vue"
+
+
 import Resume from "@/views/Resume.vue";
 import Vue from "vue";
 import VueRouter from "vue-router";
@@ -38,7 +41,7 @@ const routes = [{
 {
   path: "/projects",
   name: "Projects",
-  redirect: "/projects/imaginecraft",
+  redirect: "/projects/lam",
   component: Projects,
   children: [
     {
@@ -51,7 +54,11 @@ const routes = [{
     },
     {
       path: "/projects/watchy",
-        component: watchy
+      component: watchy
+    },
+    {
+      path: "/projects/lam",
+      component: lam
     },
     {
       path: "/projects/smarthome",

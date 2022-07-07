@@ -1,6 +1,9 @@
 <template>
   <div class="page">
     <div class="page-nav card">
+      <router-link to="/projects/lam" class="nav-item"
+        >Live Action Map</router-link
+      >
       <router-link to="/projects/imaginecraft" class="nav-item"
         >ImagineCraft</router-link
       >

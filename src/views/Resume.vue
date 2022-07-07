@@ -34,7 +34,7 @@ export default {
           To: "Now",
           Position: "Microsoft Support Advocate",
           Description:
-            "Working with Microsoft Support Experts to guide them and ensure Customer Satisfaction with the support service provided by Microsoft. Tracking expert statistics, providing them guidance on the necessary subjects.",
+            "I work to ensure Microsoft Support Ambassadors keep up the highest quality and knowledge of Microsoft products. The team I look over works with anything from Billing issues to Windows errors and Troubleshooting.  I provide appropriate guidance and resolution ideas to the Ambassadors ensuring they are fully able to meet Microsoft’s high standards in terms of customer satisfaction. ",
         },
         {
           Place: "Dolnet Group",
