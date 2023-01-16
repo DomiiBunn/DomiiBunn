@@ -1,0 +1,36 @@
+
+stages:
+  - Build App
+  - Update Backend Reppo
+
+Build App:
+  image: node:14
+  stage: Build App
+  cache:
+    paths:
+      - node_modules
+  script:
+    - npm install --progress=false
+    - npm run lint
+    - npm run build
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - dist
+
+Update Backend Files:
+  image: bitnami/git:latest
+  needs:
+    - job: Build App
+      artifacts: true
+  script:
+    - git clone https://domiibunn:$SECRET_PAN@git.honex.life/website/backend.git
+    - rm -rf backend/public
+    - mv dist backend/public
+    - cd backend
+    - git config user.email "ci@honex.live"
+    - git config user.name "CI"
+    - git add .
+    - git commit -m "Update UI Files"
+    - git push https://domiibunn:$SECRET_PAN@git.honex.life/website/backend.git
+  stage: Update Backend Reppo
