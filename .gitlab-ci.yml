@@ -23,7 +23,7 @@ Update Backend Files:
     - job: Build App
       artifacts: true
   script:
-    - git clone https://domiibunn:$SECRET_PAN@git.honex.life/website/backend.git
+    - git clone https://domiibunn:$SECRET_PAN@git.domiibunn.live/website/backend.git
     - rm -rf backend/public
     - mv dist backend/public
     - cd backend
@@ -31,5 +31,5 @@ Update Backend Files:
     - git config user.name "CI"
     - git add .
     - git commit -m "Update UI Files"
-    - git push https://domiibunn:$SECRET_PAN@git.honex.life/website/backend.git
+    - git push https://domiibunn:$SECRET_PAN@git.domiibunn.live/website/backend.git
   stage: Update Backend Reppo
