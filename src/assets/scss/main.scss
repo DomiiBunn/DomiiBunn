@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background-color: rgb(65, 65, 65);
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+  width: calc(100vw - 2px);
+  height: 100vh;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+.full-screen-background {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-content {
+  backdrop-filter: blur(10px) brightness(60%);
+  height: 100%;
+  width: 100%;
+  padding-top: 90px;
+  padding-right: 2%;
+  padding-left: 2%;
+}

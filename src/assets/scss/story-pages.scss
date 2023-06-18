@@ -1,0 +1,9 @@
+.story-page {
+  height: 100vh;
+  width: calc(100vw - 2px);
+  .page-content {
+    .page-title {
+      font-size: 2.5rem;
+    }
+  }
+}
