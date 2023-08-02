@@ -2,8 +2,8 @@
   <nav>
     <router-link class="name" to="/">Dominika Jadowska</router-link>
     <div class="links">
-      <router-link to="/projects">Projects</router-link>
-      <router-link to="/about">About</router-link>
+      <!-- <router-link to="/projects">Projects</router-link>
+      <router-link to="/about">About</router-link> -->
     </div>
   </nav>
 </template>
