@@ -1,17 +1,17 @@
 <template>
   <div class="home">
     <landingComponent />
-    <developmentPage />
+    <welcomePage />
   </div>
 </template>
 
 <script>
 import landingComponent from "@/components/landingComponent.vue";
-import developmentPage from "@/components/storyPages/developmentPage.vue";
+import welcomePage from "@/components/storyPages/welcomePage.vue";
 export default {
   components: {
     landingComponent,
-    developmentPage,
+    welcomePage,
   },
 };
 </script>
