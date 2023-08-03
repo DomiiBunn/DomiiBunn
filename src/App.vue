@@ -2,7 +2,9 @@
   <div id="app">
     <scrollTopButton v-if="scrolled" />
     <navBar />
-    <router-view />
+    <transition name="fade">
+      <router-view />
+    </transition>
   </div>
 </template>
 
