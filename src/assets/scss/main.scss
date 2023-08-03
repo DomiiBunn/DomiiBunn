@@ -32,9 +32,46 @@ a:active {
 
 .page-content {
   backdrop-filter: blur(10px) brightness(60%);
-  height: 100%;
+  min-height: 100%;
   width: 100%;
-  padding-top: 90px;
-  padding-right: 2%;
-  padding-left: 2%;
+  overflow: auto;
+  padding-top: 70px;
+  padding-right: 5%;
+  padding-left: 5%;
+  .section-title {
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+  .page-section {
+    background-color: rgb(80, 80, 80);
+    padding: 20px;
+    border-left: white solid 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+    .section-title {
+      font-size: 1.5rem;
+      padding-top: 0;
+      .company {
+        font-size: 1rem;
+      }
+    }
+    .section-listing-sm {
+      display: flex;
+      flex-wrap: wrap;
+      .listing-item-sm {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        min-width: 33%;
+        @media only screen and (max-width: 1000px) {
+          min-width: 50%;
+        }
+        @media only screen and (max-width: 700px) {
+          min-width: 100%;
+        }
+      }
+    }
+  }
 }

@@ -1,7 +1,9 @@
 <template>
-  <nav>
+  <nav :style="getStyle($route)">
     <router-link class="name" to="/">Dominika Jadowska</router-link>
     <div class="links">
+      <router-link to="/cv">Experience</router-link>
+
       <!-- <router-link to="/projects">Projects</router-link>
       <router-link to="/about">About</router-link> -->
     </div>
@@ -9,7 +11,14 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    getStyle(route) {
+      if (route.path == "/") return;
+      return "background-color: rgb(65, 65, 65);";
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
