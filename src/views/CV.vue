@@ -91,16 +91,16 @@ export default {
         },
         {
           company: "ICON Communication Centres s.r.o.",
-          title: "Microsoft Support Advocate",
+          title: "Microsoft Support Advocate (Overseeing Position)",
           startDate: "Mar 2022",
           endDate: "Aug 2022",
           keypoints: [
-            "Provided Microsoft support to customers, addressing inquiries and resolving issues.",
-            "Utilized JavaScript knowledge for troubleshooting and improving customer experience.",
-            "Demonstrated excellent communication and analytical skills.",
+            "Oversaw and managed a large group of support agents, providing guidance and assistance in customer interactions.",
+            "Utilized JavaScript knowledge to troubleshoot and improve support agent efficiency and customer experience.",
+            "Demonstrated excellent communication and analytical skills in supporting the team.",
           ],
           statement:
-            "During my time at ICON Communication Centres, I honed my skills in Microsoft support and effective communication, contributing to the overall success of the company.",
+            "As a Microsoft Support Advocate in an overseeing position at ICON Communication Centres, I led and supported a team of agents to effectively assist customers, while leveraging my technical expertise and communication skills for the success of the entire support operation.",
         },
         {
           company: "Dolnet Group sp zoo",
