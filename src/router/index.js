@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import CV from "@/views/CV.vue";
+import ContactView from "@/views/ContactView.vue";
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: "/cv",
     name: "cv",
     component: CV,
+  },
+  {
+    path: "/contact",
+    name: "contact",
+    component: ContactView,
   },
   {
     path: "/about",
