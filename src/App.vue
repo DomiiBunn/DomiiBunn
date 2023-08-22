@@ -37,7 +37,7 @@ export default {
 </style>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
 </style>
 
 <style type="text/css">

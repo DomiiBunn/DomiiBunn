@@ -28,7 +28,7 @@ export default {
     justify-content: center;
     flex-direction: column;
     .name {
-      font-size: 3rem;
+      font-size: 4rem;
     }
     .details {
       font-size: 1.5rem;
