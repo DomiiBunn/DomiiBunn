@@ -11,14 +11,24 @@
 
 ### Languages and Frameworks
 
-- <div style="display: flex; align-items: center;">
-    <img src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000" width="20" style="vertical-align: middle;" /> Javascript
-  </div>
+
 - <div style="display: flex; align-items: center;">
     <img src="https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" width="20" style="vertical-align: middle;" /> Express.JS
   </div>
 - <div style="display: flex; align-items: center;">
     <img src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000" width="20" style="vertical-align: middle;" /> VueJS
+  </div>
+- <div style="display: flex; align-items: center;">
+    <img src="https://img.icons8.com/?size=100&id=tGvHBPJaKqEd&format=png&color=000000" width="20" style="vertical-align: middle;" /> Javascript
+  </div>
+- <div style="display: flex; align-items: center;">
+    <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" width="20" style="vertical-align: middle;" /> HTML
+  </div>
+- <div style="display: flex; align-items: center;">
+    <img src="https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000" width="20" style="vertical-align: middle;" /> CSS
+  </div>
+- <div style="display: flex; align-items: center;">
+    <img src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" width="20" style="vertical-align: middle;" /> NodeJS
   </div>
 
 ### Other Technologies
@@ -38,6 +48,8 @@
 - <div style="display: flex; align-items: center;">
     <img src="https://img.icons8.com/?size=100&id=22813&format=png&color=000000" width="20" style="vertical-align: middle;" /> Docker
   </div>
+
+
 
 <p align="center">
 &nbsp; <a href="https://banichimu.live/@domiibunn" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/link.png" width="50" /></a>  
