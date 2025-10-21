@@ -5,7 +5,7 @@
 ### 🙋‍♀️ About me
 
 - I am currently working with Invicti Security
-- Senior Technical Support Agent
+- Site Reliability Engineer
 - Developer of internal tooling
 - I like to help people with tech issues.
 
